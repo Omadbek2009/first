@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+body nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 30vh;
+}
+body nav .rasm {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body nav .rasm img {
+  width: 30%;
+}
+body nav .rasm .ism {
+  line-height: 50px;
+}
+body nav .rasm .ism h1 {
+  font-size: 35px;
+}
+body nav .rasm .ism b {
+  font-size: 25px;
+}
+body nav .sms {
+  font-family: sans-serif;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
+body nav .sms p {
+  font-size: 17px;
+}
+body nav .sms p b {
+  font-style: 18px;
+}
+body .objectiv {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .objectiv .obecdiv {
+  width: 85%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 2px dashed #999;
+  border-bottom: 2px dashed #999;
+}
+body .objectiv .obecdiv h1 {
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 190px;
+  letter-spacing: 0.1px;
+  height: 45px;
+  color: #fff;
+  background: #1e1c1c;
+  margin-bottom: 70px;
+}
+body .objectiv .obecdiv p {
+  font-size: 17px;
+  width: 600px;
+}
+body .experence {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .experence .s {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px dashed #999;
+  height: 38vh;
+}
+body .experence .s .febrary {
+  width: 85%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+body .experence .s .febrary .hu {
+  margin-bottom: 200px;
+}
+body .experence .s .febrary .hu .pire {
+  width: 80%;
+}
+body .experence .s .febrary .hu h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  letter-spacing: 0.1px;
+  width: 190px;
+  cursor: pointer;
+  font-size: 25px;
+  color: #fff;
+  background: #1e1c1c;
+  margin-bottom: 30px;
+  height: 45px;
+}
+body .experence .s .febrary .pirety {
+  width: 20%;
+  line-height: 20px;
+  margin-top: -80px;
+}
+body .experence .s .Disign {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px dashed #999;
+}
+body .experence .s .lop1 {
+  margin-top: -60px;
+}
+body .experence .s .lop {
+  margin-top: 60px;
+}
+body .education {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .education .fty {
+  width: 85%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px dashed #999;
+}
+body .education .fty .grapic {
+  width: 40%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  flex-direction: column;
+  font-family: sans-serif;
+}
+body .education .fty .grapic p {
+  margin-top: 20px;
+}
+body .education .fty .aduc h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+  width: 200px;
+  height: 45px;
+  cursor: pointer;
+  color: #fff;
+  background: #1e1c1c;
+  margin-bottom: 70px;
+}
+body .footer {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .footer .wit {
+  width: 85%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50vh;
+}
+body .footer .wit .kill {
+  line-height: 30px;
+}
+body .footer .wit .kill h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  border-radius: 3px;
+  color: #fff;
+  background: #1e1c1c;
+}
+body .footer .wit .language {
+  line-height: 30px;
+}
+body .footer .wit .language h1 {
+  margin-top: -60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  border-radius: 3px;
+  color: #fff;
+  background: #1e1c1c;
+}
+body .footer .wit .refer {
+  line-height: 30px;
+  width: 30%;
+}
+body .footer .wit .refer h1 {
+  margin-top: -40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 220px;
+  height: 45px;
+  border-radius: 3px;
+  color: #fff;
+  background: #1e1c1c;
+}/*# sourceMappingURL=style.css.map */

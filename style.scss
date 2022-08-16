@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    align-items: center;
+    justify-content: center;    
+    font-family: sans-serif;
+    nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 30vh;
+        
+        .rasm{
+            width: 40%;
+            display: flex;
+            align-items: center;
+            font-family:Arial, Helvetica, sans-serif ;
+            img{
+                width: 30%;
+            }
+            .ism{
+                line-height: 50px;
+                h1{
+                    font-size: 35px;
+                }
+                b{
+                    font-size: 25px;
+                }
+            }
+        }
+        .sms{
+            font-family: sans-serif;
+             display: flex;
+             align-items: flex-end;
+             flex-direction: column;
+             p{
+               font-size: 17px;
+               b{
+                font-style: 18px;
+               } 
+             }
+        }
+    }
+    .objectiv{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center; 
+       .obecdiv{
+            width: 85%;
+            height: 20vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-top: 2px dashed #999;
+            border-bottom: 2px dashed #999;
+            h1{
+                border-radius: 3px;
+                cursor: pointer;
+                font-size: 25px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 190px;
+                letter-spacing: 0.100px;
+                height: 45px;
+                color: #fff;
+                background: #1e1c1c;
+                margin-bottom: 70px;
+            }
+            p{
+                font-size: 17px;
+                width: 600px;
+            }
+       }
+    }
+    .experence{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .s{
+            width: 85%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px dashed #999;
+            height: 38vh;
+            .febrary{
+                width: 85%;
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                justify-content: space-between;
+                .hu{
+                    margin-bottom: 200px;
+                    .pire{
+                        width: 80%;
+                    }
+                    h1{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 3px;
+                        letter-spacing: 0.100px;
+                        width: 190px;
+                        cursor: pointer;
+                        font-size: 25px;
+                        color: #fff;
+                        background: #1e1c1c;
+                        margin-bottom: 30px;
+                        height: 45px;
+                    }
+                }
+                .pirety{
+                    width: 20%;
+                    line-height: 20px;
+                    margin-top: -80px;
+                }
+            }
+            .Disign{
+                width: 85%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                border: 2px dashed #999;
+    
+                
+            }
+            .lop1{
+                margin-top: -60px;
+            }
+            .lop{
+                margin-top: 60px;
+            }
+        }
+            
+          
+    }
+    .education{
+        width: 100%;
+        height: 30vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .fty{
+            width: 85%;
+            height: 30vh;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 2px dashed #999;
+            .grapic{
+                width: 40%;
+                display: flex;
+                align-items: flex-start;
+                justify-content: start;
+                flex-direction: column;
+                font-family: sans-serif;
+                p{
+                    margin-top: 20px;
+                }
+                
+            }
+            .aduc{
+                h1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 3px;
+                    width: 200px;
+                    height: 45px;
+                    cursor: pointer;
+                    color: #fff;
+                    background: #1e1c1c;
+                    margin-bottom: 70px;
+                }
+            }
+        }
+    }
+    .footer{
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .wit{
+            width: 85%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: 50vh;
+            .kill{
+                line-height: 30px;
+                h1{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    width: 200px;
+                    height: 45px;
+                    border-radius: 3px;
+                    color: #fff;
+                    background: #1e1c1c;
+                }
+            }
+            .language{
+                line-height: 30px;
+                h1{
+                    margin-top: -60px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    width: 200px;
+                    height: 45px;
+                    border-radius: 3px;
+                    color: #fff;
+                    background: #1e1c1c;
+                }
+            }
+            .refer{
+                line-height: 30px;
+                width: 30%;
+                h1{
+                    margin-top: -40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    cursor: pointer;
+                    width: 220px;
+                    height: 45px;
+                    border-radius: 3px;
+                    color: #fff;
+                    background: #1e1c1c;
+                }
+            }
+        }
+    }
+    
+
+}
+   
